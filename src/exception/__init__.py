@@ -1,0 +1,4 @@
+"""
+Custom exception handling package.
+"""
+

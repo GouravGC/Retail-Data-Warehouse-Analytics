@@ -1,0 +1,4 @@
+"""
+Entity/configuration dataclasses package.
+"""
+
