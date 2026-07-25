@@ -1,0 +1,120 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+.history/
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Python Cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Streamlit Secrets
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Large Training Data
+# ==========================
+artifacts/datasets/raw/
+artifacts/datasets/processed/
+
+# ==========================
+# Training Outputs
+# ==========================
+artifacts/plots/
+artifacts/reports/
+artifacts/logs/
+artifacts/checkpoints/
+artifacts/database/
+artifacts/models/random_forest.pkl
+artifacts/tensorboard/
+artifacts/mlruns/
+mlruns/
+
+# ==========================
+# Model Training Cache
+# ==========================
+*.ckpt
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# ==========================
+# Kaggle Downloads
+# ==========================
+kaggle.json
+
+# ==========================
+# Temporary Files
+# ==========================
+temp/
+tmp/
+*.tmp
+
+# ==========================
+# Keep Inference Artifacts
+# (Do NOT ignore these)
+# ==========================
+!artifacts/
+!artifacts/models/
+!artifacts/models/model.pkl
+!artifacts/models/preprocessor.pkl
+!artifacts/models/scaler.pkl
+!artifacts/models/encoder.pkl
+!artifacts/models/label_encoder.pkl
+!artifacts/models/feature_names.pkl
