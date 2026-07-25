@@ -68,8 +68,8 @@ Thumbs.db
 # ==========================
 # Large Training Data
 # ==========================
-artifacts/datasets/raw/
-artifacts/datasets/processed/
+artifacts/data/raw/
+artifacts/data/processed/
 
 # ==========================
 # Training Outputs
