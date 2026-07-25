@@ -13,7 +13,6 @@ Provides an interactive dashboard for:
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import json
 import io
@@ -174,14 +173,14 @@ with st.sidebar:
     col1, col2 = st.columns(2)
     with col1:
         st.markdown(
-            "<a href='https://github.com' target='_blank' "
+            "<a href='https://github.com/GouravGC/Retail-Data-Warehouse-Analytics' target='_blank' "
             "style='text-decoration:none;'>"
             "<button style='width:100%; cursor:pointer;'>🐙 GitHub</button></a>",
             unsafe_allow_html=True,
         )
     with col2:
         st.markdown(
-            "<a href='#' target='_blank' "
+            "<a href='https://retail-data-warehouse-analytics.streamlit.app/' target='_blank' "
             "style='text-decoration:none;'>"
             "<button style='width:100%; cursor:pointer;'>🌐 Demo</button></a>",
             unsafe_allow_html=True,
@@ -189,8 +188,8 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("**Contact**")
-    st.caption("📧 developer@example.com")
-    st.caption("🔗 [LinkedIn](https://linkedin.com)")
+    st.caption("📧 chhatwanigourav@gmail.com")
+    st.caption("🔗 [LinkedIn](https://www.linkedin.com/in/gourav-chhatwani-9a301134a/)")
 
     st.markdown("---")
     st.info(
@@ -971,14 +970,14 @@ def about_page():
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("""
-        - 🐙 [GitHub Repository](https://github.com) *(placeholder)*
-        - 🌐 [Live Demo](https://streamlit.io) *(placeholder)*
+        - 🐙 [GitHub Repository](https://github.com/GouravGC/Retail-Data-Warehouse-Analytics)
+        - 🌐 [Live Demo](https://retail-data-warehouse-analytics.streamlit.app/)
         - 📊 [Olist Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
         """)
     with col2:
         st.markdown("""
         - 📧 **Author:** GCS Portfolio Projects
-        - 🔗 [LinkedIn](https://linkedin.com) *(placeholder)*
+        - 🔗 [LinkedIn](https://www.linkedin.com/in/gourav-chhatwani-9a301134a/)
         - 🏢 **Purpose:** Portfolio / Learning
         """)
 

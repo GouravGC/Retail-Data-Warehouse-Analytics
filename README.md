@@ -8,7 +8,11 @@ An end-to-end retail analytics pipeline using the **Olist Brazilian E-Commerce**
 
 ## Live Demo
 
-🚀 **Streamlit Application:** https://your-app-name.streamlit.app
+🚀 **Streamlit Application:** [https://retail-data-warehouse-analytics.streamlit.app](https://retail-data-warehouse-analytics.streamlit.app)
+
+🐙 **GitHub Repository:** [https://github.com/GouravGC/Retail-Data-Warehouse-Analytics](https://github.com/GouravGC/Retail-Data-Warehouse-Analytics)
+
+🔗 **LinkedIn:** [https://www.linkedin.com/in/gourav-chhatwani-9a301134a](https://www.linkedin.com/in/gourav-chhatwani-9a301134a)
 
 ---
 
@@ -77,8 +81,8 @@ An end-to-end retail analytics pipeline using the **Olist Brazilian E-Commerce**
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/retail-data-warehouse-analytics.git
-cd retail-data-warehouse-analytics
+git clone https://github.com/GouravGC/Retail-Data-Warehouse-Analytics.git
+cd Retail-Data-Warehouse-Analytics
 ```
 
 ### 2. Create a virtual environment (recommended)
